@@ -5,6 +5,5 @@ import org.dnyanyog.dto.NotificationResponse;
 
 public interface NotificationService {
 
-	public NotificationResponse sendNotification(NotificationRequest request);
-
+  public NotificationResponse sendNotification(NotificationRequest request);
 }
